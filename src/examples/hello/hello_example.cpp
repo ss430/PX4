@@ -46,6 +46,7 @@
 
 px4::AppState HelloExample::appState;
 
+//this is the main method
 int HelloExample::main()
 {
 	appState.setRunning(true);
