@@ -48,6 +48,7 @@ px4::AppState HelloExample::appState;
 
 int HelloExample::main()
 {
+	//going to set the state to true
 	appState.setRunning(true);
 
 	int i = 0;
